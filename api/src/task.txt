@@ -1,0 +1,31 @@
+API part
+Write a koa application, which does contain 1 endpoint:
+GET /taxes?country=UK&salary=10000
+It should return 9% for BY (if salary 10000 = 900)
+It should return 35% for DE
+It should return 35% for IT
+It should return 21% for other cases
+
+This data is being picked up from a json file in a free format.
+
+Make this code, using the concepts / architecture that you consider looking as a good code practice.
+
+The application should include next things:
+- at least 1 test
+- logging / error handling. Not necessary to implement it ideally, we are interested in interfaces/contracts.
+- graceful shutdown
+- other tools/configs that you consider important
+
+UI part
+Create React APP (feel free to use any ready component library or react-framework). Small form to submit the data for this api call.
+
+The app should have some basic minimum infrastructure (home page / 404 page) and code that you consider looking as a good code practice
+
+You don't need to connect UI/BE or make it deployable - we will just look at the code, without trying to run it anywhere. The result should be in a archive (2 folders ui/api) or in the github - as you prefer.
+
+If you have any questions/doubts please feel free to let me know. Thanks in advance and I will be eagerly looking forward to hearing back from you.
+
+
+Cheers,
+
+Carlos
